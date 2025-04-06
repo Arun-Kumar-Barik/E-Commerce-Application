@@ -5,7 +5,7 @@
 
 ## E-R Diagram for the application
 
-![E-R Diagram](./ER%20Diagram/E-Commerce%20API%20ER%20Diagram.jpeg?raw=true](https://github.com/Arun-Kumar-Barik/E-Commerce-Application/blob/main/E-Commerce%20Application%20ER%20Diagram.jpeg))
+![E-R Diagram]([./ER%20Diagram/E-Commerce%20API%20ER%20Diagram.jpeg?raw=true](https://github.com/Arun-Kumar-Barik/E-Commerce-Application/blob/main/E-Commerce%20Application%20ER%20Diagram.jpeg))
 
 ## Tech Stack
 
@@ -129,7 +129,7 @@
 
 
 ### Sample API Response for Customer Login
-
+```
 Endpoint: 
 POST http://localhost:8071/login/customer
 Request Body:
@@ -151,4 +151,4 @@ json
     "sessionStartTime": "2025-04-06T12:18:47.7421006",
     "sessionEndTime": "2025-04-06T13:18:47.7421006"
 }
-
+```
