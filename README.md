@@ -5,7 +5,9 @@
 
 ## E-R Diagram for the application
 
-![E-R Diagram]([./ER%20Diagram/E-Commerce%20API%20ER%20Diagram.jpeg?raw=true](https://github.com/Arun-Kumar-Barik/E-Commerce-Application/blob/main/E-Commerce%20Application%20ER%20Diagram.jpeg))
+
+![ER Diagram](https://raw.githubusercontent.com/Arun-Kumar-Barik/E-Commerce-Application/main/E-Commerce%20Application%20ER%20Diagram.jpeg)
+
 
 ## Tech Stack
 
