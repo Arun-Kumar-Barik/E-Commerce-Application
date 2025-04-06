@@ -1,0 +1,458 @@
+2025-04-06 18:45:34.507  INFO 6680 --- [restartedMain] com.incture.ECommerceBackendApplication  : Starting ECommerceBackendApplication using Java 23.0.2 on LAPTOP-VOQCU5C9 with PID 6680 (C:\Users\USER\Downloads\ECommerce-SpringBoot-Backend-Project-main\ECommerce-SpringBoot-Backend-Project-main\E-Commerce-Backend\target\classes started by USER in C:\Users\USER\Downloads\ECommerce-SpringBoot-Backend-Project-main\ECommerce-SpringBoot-Backend-Project-main\E-Commerce-Backend)
+2025-04-06 18:45:34.510  INFO 6680 --- [restartedMain] com.incture.ECommerceBackendApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-06 18:45:34.622  INFO 6680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-06 18:45:34.622  INFO 6680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-06 18:45:35.828  INFO 6680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-06 18:45:35.964  INFO 6680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 8 JPA repository interfaces.
+2025-04-06 18:45:36.998  INFO 6680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8071 (http)
+2025-04-06 18:45:37.015  INFO 6680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-06 18:45:37.016  INFO 6680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-04-06 18:45:37.160  INFO 6680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-06 18:45:37.162  INFO 6680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2539 ms
+2025-04-06 18:45:37.404  INFO 6680 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 18:45:37.501  INFO 6680 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-04-06 18:45:37.820  INFO 6680 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-06 18:45:38.016  INFO 6680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-06 18:45:38.808  INFO 6680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-06 18:45:38.863  INFO 6680 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-06 18:45:40.688  INFO 6680 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-06 18:45:40.702  INFO 6680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06 18:45:41.964  WARN 6680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 18:45:42.882  INFO 6680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-06 18:45:42.950  INFO 6680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8071 (http) with context path ''
+2025-04-06 18:45:42.969  INFO 6680 --- [restartedMain] com.incture.ECommerceBackendApplication  : Started ECommerceBackendApplication in 9.086 seconds (JVM running for 10.414)
+2025-04-06 18:45:52.333 DEBUG 6680 --- [http-nio-8071-exec-2] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2025-04-06 18:45:52.333 DEBUG 6680 --- [http-nio-8071-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2025-04-06 18:45:52.334 DEBUG 6680 --- [http-nio-8071-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received [GET /cart HTTP/1.1
+token: customer_61c30069
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.3
+Accept: */*
+Postman-Token: 7ccf3354-8c0d-4c2d-8512-e610485e443a
+Host: localhost:8071
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 20
+
+{
+    "status":0
+}]
+2025-04-06 18:45:52.340 DEBUG 6680 --- [http-nio-8071-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1339) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1226) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:805) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:360) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-04-06 18:45:52.342 DEBUG 6680 --- [http-nio-8071-exec-1] o.apache.coyote.http11.Http11Processor   : Error state [CLOSE_CONNECTION_NOW] reported while processing request
+
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1339) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1226) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:805) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:360) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-04-06 18:45:52.343 DEBUG 6680 --- [http-nio-8071-exec-1] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@306051e9:org.apache.tomcat.util.net.NioChannel@5e9a3177:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57887]], Status in: [OPEN_READ], State out: [CLOSED]
+2025-04-06 18:45:52.404  INFO 6680 --- [http-nio-8071-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 18:45:52.405  INFO 6680 --- [http-nio-8071-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-06 18:45:52.414  INFO 6680 --- [http-nio-8071-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2025-04-06 18:45:52.754  WARN 6680 --- [http-nio-8071-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler com.incture.exception.GlobalExceptionHandler#loginExceptionHandler(LoginException, WebRequest)
+
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:315) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1327) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-04-06 18:45:52.760 ERROR 6680 --- [http-nio-8071-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.incture.exception.LoginException: Session expired. Login Again] with root cause
+
+com.incture.exception.LoginException: Session expired. Login Again
+	at com.incture.service.LoginLogoutServiceImpl.checkTokenStatus(LoginLogoutServiceImpl.java:132) ~[classes/:na]
+	at com.incture.service.CartServiceImpl.getCartProduct(CartServiceImpl.java:124) ~[classes/:na]
+	at com.incture.controller.CartController.getCartProductHandler(CartController.java:49) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-04-06 18:45:52.840 DEBUG 6680 --- [http-nio-8071-exec-2] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@8fdcec4:org.apache.tomcat.util.net.NioChannel@519344c8:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57888]], Status in: [OPEN_READ], State out: [CLOSED]
+2025-04-06 18:46:11.869 DEBUG 6680 --- [http-nio-8071-exec-3] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [283]
+2025-04-06 18:46:11.869 DEBUG 6680 --- [http-nio-8071-exec-4] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [0]
+2025-04-06 18:46:11.870 DEBUG 6680 --- [http-nio-8071-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received [GET /products HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.3
+Accept: */*
+Postman-Token: fa2de293-9175-434d-8aab-0f55056648ac
+Host: localhost:8071
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 79
+
+{
+    "id":3,
+    "title":"That type of dayyy",
+    "content" : "Be Mine"
+}]
+2025-04-06 18:46:11.870 DEBUG 6680 --- [http-nio-8071-exec-3] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1339) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1226) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:805) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:360) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-04-06 18:46:11.870 DEBUG 6680 --- [http-nio-8071-exec-3] o.apache.coyote.http11.Http11Processor   : Error state [CLOSE_CONNECTION_NOW] reported while processing request
+
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1339) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1226) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:805) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:360) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-04-06 18:46:11.873 DEBUG 6680 --- [http-nio-8071-exec-3] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@6411a387:org.apache.tomcat.util.net.NioChannel@519344c8:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57913]], Status in: [OPEN_READ], State out: [CLOSED]
+2025-04-06 18:46:11.945 DEBUG 6680 --- [http-nio-8071-exec-4] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [261]
+2025-04-06 18:46:11.945 DEBUG 6680 --- [http-nio-8071-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received []
+2025-04-06 18:46:11.945 DEBUG 6680 --- [http-nio-8071-exec-4] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@72578c39:org.apache.tomcat.util.net.NioChannel@5e9a3177:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57914]], Status in: [OPEN_READ], State out: [OPEN]
+2025-04-06 18:47:00.526 DEBUG 6680 --- [http-nio-8071-exec-5] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [261]
+2025-04-06 18:47:00.527 DEBUG 6680 --- [http-nio-8071-exec-5] o.a.coyote.http11.Http11InputBuffer      : Received [POST /login/customer HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.3
+Accept: */*
+Postman-Token: 2f88dc5a-97c8-4e25-bc12-2178f0d22075
+Host: localhost:8071
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 94
+
+{
+     "mobileId":"123456789",
+     "emailId": "virat@gmail.com",
+     "password": "188"
+}]
+2025-04-06 18:47:00.762 DEBUG 6680 --- [http-nio-8071-exec-5] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [268]
+2025-04-06 18:47:00.763 DEBUG 6680 --- [http-nio-8071-exec-5] o.a.coyote.http11.Http11InputBuffer      : Received []
+2025-04-06 18:47:00.763 DEBUG 6680 --- [http-nio-8071-exec-5] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@72578c39:org.apache.tomcat.util.net.NioChannel@5e9a3177:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57914]], Status in: [OPEN_READ], State out: [OPEN]
+2025-04-06 18:47:20.537 DEBUG 6680 --- [http-nio-8071-exec-6] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [268]
+2025-04-06 18:47:20.538 DEBUG 6680 --- [http-nio-8071-exec-6] o.a.coyote.http11.Http11InputBuffer      : Received [POST /cart/add HTTP/1.1
+token: customer_41633dc1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.3
+Accept: */*
+Postman-Token: 7c964775-bac0-4f4a-8471-3e2e1e28d75a
+Host: localhost:8071
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 58
+
+{
+    "productId":"15",
+    "productName":"mrf bat"
+
+}]
+2025-04-06 18:47:20.557  INFO 6680 --- [http-nio-8071-exec-6] com.incture.controller.CartController    : Customer Adding product to cart
+2025-04-06 18:47:20.682 DEBUG 6680 --- [http-nio-8071-exec-6] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [288]
+2025-04-06 18:47:20.683 DEBUG 6680 --- [http-nio-8071-exec-6] o.a.coyote.http11.Http11InputBuffer      : Received []
+2025-04-06 18:47:20.683 DEBUG 6680 --- [http-nio-8071-exec-6] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@72578c39:org.apache.tomcat.util.net.NioChannel@5e9a3177:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57914]], Status in: [OPEN_READ], State out: [OPEN]
+2025-04-06 18:47:23.338 DEBUG 6680 --- [http-nio-8071-exec-7] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [288]
+2025-04-06 18:47:23.339 DEBUG 6680 --- [http-nio-8071-exec-7] o.a.coyote.http11.Http11InputBuffer      : Received [POST /cart/add HTTP/1.1
+token: customer_41633dc1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.3
+Accept: */*
+Postman-Token: f4bb7d9a-963b-4669-9401-10e7b892408a
+Host: localhost:8071
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 58
+
+{
+    "productId":"15",
+    "productName":"mrf bat"
+
+}]
+2025-04-06 18:47:23.342  INFO 6680 --- [http-nio-8071-exec-7] com.incture.controller.CartController    : Customer Adding product to cart
+2025-04-06 18:47:23.382 DEBUG 6680 --- [http-nio-8071-exec-7] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [288]
+2025-04-06 18:47:23.382 DEBUG 6680 --- [http-nio-8071-exec-7] o.a.coyote.http11.Http11InputBuffer      : Received []
+2025-04-06 18:47:23.382 DEBUG 6680 --- [http-nio-8071-exec-7] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@72578c39:org.apache.tomcat.util.net.NioChannel@5e9a3177:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57914]], Status in: [OPEN_READ], State out: [OPEN]
+2025-04-06 18:47:24.886 DEBUG 6680 --- [http-nio-8071-exec-8] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [288]
+2025-04-06 18:47:24.886 DEBUG 6680 --- [http-nio-8071-exec-8] o.a.coyote.http11.Http11InputBuffer      : Received [POST /cart/add HTTP/1.1
+token: customer_41633dc1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.3
+Accept: */*
+Postman-Token: 9b89047a-5778-43f4-b5c2-0dee412d248f
+Host: localhost:8071
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 58
+
+{
+    "productId":"15",
+    "productName":"mrf bat"
+
+}]
+2025-04-06 18:47:24.889  INFO 6680 --- [http-nio-8071-exec-8] com.incture.controller.CartController    : Customer Adding product to cart
+2025-04-06 18:47:24.930 DEBUG 6680 --- [http-nio-8071-exec-8] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [288]
+2025-04-06 18:47:24.930 DEBUG 6680 --- [http-nio-8071-exec-8] o.a.coyote.http11.Http11InputBuffer      : Received []
+2025-04-06 18:47:24.930 DEBUG 6680 --- [http-nio-8071-exec-8] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@72578c39:org.apache.tomcat.util.net.NioChannel@5e9a3177:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57914]], Status in: [OPEN_READ], State out: [OPEN]
+2025-04-06 18:47:26.197 DEBUG 6680 --- [http-nio-8071-exec-9] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [288]
+2025-04-06 18:47:26.198 DEBUG 6680 --- [http-nio-8071-exec-9] o.a.coyote.http11.Http11InputBuffer      : Received [POST /cart/add HTTP/1.1
+token: customer_41633dc1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.3
+Accept: */*
+Postman-Token: a8d6e0a8-be7c-4ea0-b176-151bf750036e
+Host: localhost:8071
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 58
+
+{
+    "productId":"15",
+    "productName":"mrf bat"
+
+}]
+2025-04-06 18:47:26.201  INFO 6680 --- [http-nio-8071-exec-9] com.incture.controller.CartController    : Customer Adding product to cart
+2025-04-06 18:47:26.242 DEBUG 6680 --- [http-nio-8071-exec-9] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [288]
+2025-04-06 18:47:26.243 DEBUG 6680 --- [http-nio-8071-exec-9] o.a.coyote.http11.Http11InputBuffer      : Received []
+2025-04-06 18:47:26.243 DEBUG 6680 --- [http-nio-8071-exec-9] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@72578c39:org.apache.tomcat.util.net.NioChannel@5e9a3177:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57914]], Status in: [OPEN_READ], State out: [OPEN]
+2025-04-06 18:47:42.569 DEBUG 6680 --- [http-nio-8071-exec-10] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [288]
+2025-04-06 18:47:42.569 DEBUG 6680 --- [http-nio-8071-exec-10] o.a.coyote.http11.Http11InputBuffer      : Received [DELETE /cart HTTP/1.1
+token: customer_41633dc1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.3
+Accept: */*
+Postman-Token: bc1f05de-5781-4248-b546-c88f2d294bfc
+Host: localhost:8071
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 58
+
+{
+    "productId":"15",
+    "productName":"mrf bat"
+
+}]
+2025-04-06 18:47:42.574  INFO 6680 --- [http-nio-8071-exec-10] com.incture.controller.CartController    : Customer removing product to cart
+2025-04-06 18:47:42.607 DEBUG 6680 --- [http-nio-8071-exec-10] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [286]
+2025-04-06 18:47:42.608 DEBUG 6680 --- [http-nio-8071-exec-10] o.a.coyote.http11.Http11InputBuffer      : Received []
+2025-04-06 18:47:42.609 DEBUG 6680 --- [http-nio-8071-exec-10] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@72578c39:org.apache.tomcat.util.net.NioChannel@5e9a3177:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57914]], Status in: [OPEN_READ], State out: [OPEN]
+2025-04-06 18:47:44.080 DEBUG 6680 --- [http-nio-8071-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [286]
+2025-04-06 18:47:44.081 DEBUG 6680 --- [http-nio-8071-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received [DELETE /cart HTTP/1.1
+token: customer_41633dc1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.3
+Accept: */*
+Postman-Token: 6ddeea44-4eca-4da9-8241-219cc618f467
+Host: localhost:8071
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 58
+
+{
+    "productId":"15",
+    "productName":"mrf bat"
+
+}]
+2025-04-06 18:47:44.084  INFO 6680 --- [http-nio-8071-exec-1] com.incture.controller.CartController    : Customer removing product to cart
+2025-04-06 18:47:44.116 DEBUG 6680 --- [http-nio-8071-exec-1] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [286]
+2025-04-06 18:47:44.116 DEBUG 6680 --- [http-nio-8071-exec-1] o.a.coyote.http11.Http11InputBuffer      : Received []
+2025-04-06 18:47:44.117 DEBUG 6680 --- [http-nio-8071-exec-1] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@72578c39:org.apache.tomcat.util.net.NioChannel@5e9a3177:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57914]], Status in: [OPEN_READ], State out: [OPEN]
+2025-04-06 18:47:45.154 DEBUG 6680 --- [http-nio-8071-exec-2] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [286]
+2025-04-06 18:47:45.156 DEBUG 6680 --- [http-nio-8071-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received [DELETE /cart HTTP/1.1
+token: customer_41633dc1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.43.3
+Accept: */*
+Postman-Token: 5f921209-6c9f-4326-85b6-7e24ea1ccc25
+Host: localhost:8071
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 58
+
+{
+    "productId":"15",
+    "productName":"mrf bat"
+
+}]
+2025-04-06 18:47:45.158  INFO 6680 --- [http-nio-8071-exec-2] com.incture.controller.CartController    : Customer removing product to cart
+2025-04-06 18:47:45.189 DEBUG 6680 --- [http-nio-8071-exec-2] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [286]
+2025-04-06 18:47:45.190 DEBUG 6680 --- [http-nio-8071-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received []
+2025-04-06 18:47:45.190 DEBUG 6680 --- [http-nio-8071-exec-2] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@72578c39:org.apache.tomcat.util.net.NioChannel@5e9a3177:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8071 remote=/[0:0:0:0:0:0:0:1]:57914]], Status in: [OPEN_READ], State out: [OPEN]
+2025-04-06 18:48:13.215  INFO 6680 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06 18:48:13.220  INFO 6680 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-06 18:48:13.231  INFO 6680 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-06 18:48:13.359  INFO 6680 --- [restartedMain] com.incture.ECommerceBackendApplication  : Starting ECommerceBackendApplication using Java 23.0.2 on LAPTOP-VOQCU5C9 with PID 6680 (C:\Users\USER\Downloads\ECommerce-SpringBoot-Backend-Project-main\ECommerce-SpringBoot-Backend-Project-main\E-Commerce-Backend\target\classes started by USER in C:\Users\USER\Downloads\ECommerce-SpringBoot-Backend-Project-main\ECommerce-SpringBoot-Backend-Project-main\E-Commerce-Backend)
+2025-04-06 18:48:13.360  INFO 6680 --- [restartedMain] com.incture.ECommerceBackendApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-06 18:48:13.777  INFO 6680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-06 18:48:13.849  INFO 6680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 8 JPA repository interfaces.
+2025-04-06 18:48:14.029  INFO 6680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8071 (http)
+2025-04-06 18:48:14.030  INFO 6680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-06 18:48:14.030  INFO 6680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-04-06 18:48:14.063  INFO 6680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-06 18:48:14.063  INFO 6680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 698 ms
+2025-04-06 18:48:14.136  INFO 6680 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 18:48:14.146  INFO 6680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-04-06 18:48:14.181  INFO 6680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-04-06 18:48:14.182  INFO 6680 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-06 18:48:14.574  INFO 6680 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-06 18:48:14.575  INFO 6680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06 18:48:15.021  WARN 6680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 18:48:15.339  INFO 6680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-06 18:48:15.363  INFO 6680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8071 (http) with context path ''
+2025-04-06 18:48:15.368  INFO 6680 --- [restartedMain] com.incture.ECommerceBackendApplication  : Started ECommerceBackendApplication in 2.065 seconds (JVM running for 162.813)
+2025-04-06 18:48:15.370  INFO 6680 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-06 18:48:16.837  INFO 6680 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06 18:48:16.840  INFO 6680 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-04-06 18:48:16.852  INFO 6680 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-04-06 18:48:16.994  INFO 6680 --- [restartedMain] com.incture.ECommerceBackendApplication  : Starting ECommerceBackendApplication using Java 23.0.2 on LAPTOP-VOQCU5C9 with PID 6680 (C:\Users\USER\Downloads\ECommerce-SpringBoot-Backend-Project-main\ECommerce-SpringBoot-Backend-Project-main\E-Commerce-Backend\target\classes started by USER in C:\Users\USER\Downloads\ECommerce-SpringBoot-Backend-Project-main\ECommerce-SpringBoot-Backend-Project-main\E-Commerce-Backend)
+2025-04-06 18:48:16.994  INFO 6680 --- [restartedMain] com.incture.ECommerceBackendApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-06 18:48:17.328  INFO 6680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-06 18:48:17.390  INFO 6680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 8 JPA repository interfaces.
+2025-04-06 18:48:17.531  INFO 6680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8071 (http)
+2025-04-06 18:48:17.533  INFO 6680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-06 18:48:17.534  INFO 6680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-04-06 18:48:17.564  INFO 6680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-06 18:48:17.564  INFO 6680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 566 ms
+2025-04-06 18:48:17.618  INFO 6680 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 18:48:17.627  INFO 6680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-04-06 18:48:17.656  INFO 6680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-04-06 18:48:17.657  INFO 6680 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-06 18:48:18.045  INFO 6680 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-06 18:48:18.046  INFO 6680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06 18:48:18.450  WARN 6680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 18:48:18.724  INFO 6680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-06 18:48:18.741  INFO 6680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8071 (http) with context path ''
+2025-04-06 18:48:18.748  INFO 6680 --- [restartedMain] com.incture.ECommerceBackendApplication  : Started ECommerceBackendApplication in 1.798 seconds (JVM running for 166.193)
+2025-04-06 18:48:18.750  INFO 6680 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-06 18:49:24.278  INFO 6680 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-06 18:49:24.296  INFO 6680 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06 18:49:24.297  INFO 6680 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-04-06 18:49:24.302  INFO 6680 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
